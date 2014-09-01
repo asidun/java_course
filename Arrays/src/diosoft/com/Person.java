@@ -65,7 +65,33 @@ public class Person {
 		this.age = age;
 	}
 	
-	public static class Builder{
+	public Person() {
+	
+}
+
+	public Person(Builder builder) {
+		this.name = builder.name;
+		this.surname = builder.surname;
+		this.age = builder.age;
 	}
+
+	public static class Builder{
+		
+		private String name;
+		private String surname;
+		private int age;
+		
+		public Builder(){};
+		
+		public Person build(){
+			return new Person(this);
+		}
+	
+	}
+	
+	public void Builder (Person original){
+		this.name = original.name;
+		this.surname = original.surname;
+		this.age = original.age;
 	}
 }
