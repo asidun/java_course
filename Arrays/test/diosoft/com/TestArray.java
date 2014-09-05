@@ -1,9 +1,8 @@
 package diosoft.com;
 
-import helper.ArrayHelper;
-import helper.ServiceDelegate;
+import diosoft.com.helper.ArrayHelper;
+import diosoft.com.helper.ServiceDelegate;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 import static junit.framework.Assert.*;

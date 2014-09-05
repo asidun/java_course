@@ -65,11 +65,10 @@ public class Person {
 		this.age = age;
 	}
 	
-	public Person() {
-	
-}
+	public Person() {	
+	}	
 
-	public Person(Builder builder) {
+	private Person(Builder builder) {
 		this.name = builder.name;
 		this.surname = builder.surname;
 		this.age = builder.age;
@@ -81,17 +80,35 @@ public class Person {
 		private String surname;
 		private int age;
 		
-		public Builder(){};
+		public Builder(){};	
+		
+		
+		public Builder(Person original){
+			this.name = original.name;
+			this.surname = original.surname;
+			this.age = original.age;
+		}
+		
+		public Builder name(String name){
+			this.name = name;
+			return this;
+		}
+		
+		public Builder surname(String surname){
+			this.surname = surname;
+			return this;
+		}
+		
+		public Builder age(int age){
+			this.age = age;
+			return this;
+		}
 		
 		public Person build(){
 			return new Person(this);
-		}
+		}	
 	
 	}
 	
-	public void Builder (Person original){
-		this.name = original.name;
-		this.surname = original.surname;
-		this.age = original.age;
-	}
+	
 }
