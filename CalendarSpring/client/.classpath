@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/service"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-aop-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-aspects-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-beans-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-context-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-context-support-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-core-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-expression-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-instrument-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-instrument-tomcat-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-jdbc-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-jms-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-messaging-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-orm-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-oxm-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-test-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/project/java_course/CalendarSpring/client/lib/spring-tx-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

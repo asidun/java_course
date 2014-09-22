@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventAdapter>
+    <attenders>
+        <firstName>aName</firstName>
+    </attenders>
+    <description>sampleEventDescription</description>
+    <endTime>2008-04-03T10:12:00+03:00</endTime>
+    <person>sampleEvent</person>
+    <startTime>2008-04-03T10:12:00+03:00</startTime>
+</eventAdapter>
